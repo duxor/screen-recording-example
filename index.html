@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen Recorder</title>
+  <style>
+    #time-display {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<h1>Screen Recorder</h1>
+<button id="start-btn">Start Recording</button>
+<button id="stop-btn">Stop Recording</button>
+<div id="time-display">00:00</div>
+<!--<input type="file" id="manifest-input" accept=".mpd" />-->
+<!--<video id="videoPlayer" controls></video>-->
+
+<script src="renderer.js"></script>
+<script src="node_modules/dashjs/dist/dash.all.min.js"></script>
+</body>
+</html>
